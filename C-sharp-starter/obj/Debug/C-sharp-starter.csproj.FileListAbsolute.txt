@@ -1,0 +1,10 @@
+/Users/zhudapeng/Projects/C-sharp-starter/C-sharp-starter/bin/Debug/C-sharp-starter.exe
+/Users/zhudapeng/Projects/C-sharp-starter/C-sharp-starter/bin/Debug/C-sharp-starter.pdb
+/Users/zhudapeng/Projects/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.csprojAssemblyReference.cache
+/Users/zhudapeng/Projects/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.exe
+/Users/zhudapeng/Projects/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.pdb
+/Users/zhudapeng/Desktop/C-sharp-starter/C-sharp-starter/bin/Debug/C-sharp-starter.exe
+/Users/zhudapeng/Desktop/C-sharp-starter/C-sharp-starter/bin/Debug/C-sharp-starter.pdb
+/Users/zhudapeng/Desktop/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.csprojAssemblyReference.cache
+/Users/zhudapeng/Desktop/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.exe
+/Users/zhudapeng/Desktop/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.pdb
