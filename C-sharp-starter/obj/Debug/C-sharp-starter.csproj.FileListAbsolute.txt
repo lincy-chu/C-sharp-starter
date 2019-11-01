@@ -8,3 +8,9 @@
 /Users/zhudapeng/Desktop/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.csprojAssemblyReference.cache
 /Users/zhudapeng/Desktop/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.exe
 /Users/zhudapeng/Desktop/C-sharp-starter/C-sharp-starter/obj/Debug/C-sharp-starter.pdb
+C:\Users\robin.zhu\Documents\GitHub\C-sharp-learning\C-sharp-starter\obj\Debug\C-sharp-starter.exe
+C:\Users\robin.zhu\Documents\GitHub\C-sharp-learning\C-sharp-starter\obj\Debug\C-sharp-starter.pdb
+C:\Users\robin.zhu\Documents\GitHub\C-sharp-learning\C-sharp-starter\bin\Debug\C-sharp-starter.exe
+C:\Users\robin.zhu\Documents\GitHub\C-sharp-learning\C-sharp-starter\bin\Debug\C-sharp-starter.pdb
+C:\Users\robin.zhu\Documents\GitHub\C-sharp-learning\C-sharp-starter\obj\Debug\C-sharp-starter.csprojAssemblyReference.cache
+C:\Users\robin.zhu\Documents\GitHub\C-sharp-learning\C-sharp-starter\obj\Debug\C-sharp-starter.csproj.CoreCompileInputs.cache
