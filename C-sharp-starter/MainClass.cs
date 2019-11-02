@@ -412,6 +412,79 @@ namespace CSharpStarter // 命名空间，在C#中起到组织程序的作用。
             var myPad = new MyPad();
             myPad.SayHello();
             myPad.SayName();
+            
+            var vehicle = new Vehicle(); // 创建Vehicle类的实例
+            var train = new Train(); // 创建Train类的实例
+            var car = new Car(); // 创建Car类的实例
+
+            Vehicle[] vehicles = { vehicle, train, car };
+            vehicle.Name = "交通工具"; // 设置交通工具的名字
+            train.Name = "火车";
+            car.Name = "汽车";
+            vehicles[0].Move(); // 输出交通工具的形态
+            vehicles[1].Move();
+            vehicles[2].Move();
+            
+            var people = new People[2]; // 声明People类型数组
+            people[0] = new Chinese(); // 使用第一个派生类的对象初始化数组的第一个元素
+            people[1] = new American(); // 使用第二个派生类的对象初始化数组的第二个元素
+            foreach (var item in people)
+            {
+                item.Say("robin");
+            }
+            
+            var pc = new Computers(); // 创建电脑类对象
+            Write("PC打开图片：");
+            pc.ShowPicture(); // 调用电脑类对象展示图片的方法
+            var iPad = new Pads(); // 创建平板电脑类对象
+            Write("iPad打开图片：");
+            iPad.ShowPicture();
+            
+            // 抽象类和抽象方法
+            /**
+             * 如果一个类不与具体的事物相联系，而只是表达一种抽象的概念或行为，仅仅是作为其派生类的一个基类，这样的类就可以声明为抽象类。C#中声明抽象类时需要使用abstract关键字
+             */
+            var market = new WallMarket {Name = "沃尔玛", Goods = "七匹狼西装"}; // 使用派生类对象创建抽象类对象
+            market.Shop();
+            market = new WallMarket {Name = "淘宝", Goods = "韩都衣舍花裙"}; // 使用派生类对象创建抽象类对象
+            market.Shop();
+
+            var info = new JhInfos {Code = "JH0001", Name = "笔记本电脑"}; // 使用派生对象创建抽象对象
+            info.ShowInfo();
+            var xInfo = new XsInfo {Code = "XS0001", Name = "华为荣耀9"}; // 创建进货派生类中重写的方法
+            xInfo.ShowInfo();
+            
+            // 抽象类与抽象方法
+            var autoPlant = new AutoPlant("汽车");
+            autoPlant.SetName("汽车厂");
+            autoPlant.ShowInfo();
+            var shoeFactory = new ShoeFactory("鞋");
+            shoeFactory.SetName("鞋厂");
+            shoeFactory.ShowInfo();
+            
+            // 接口的使用
+            /**
+             * 由于C#中的类不支持多重继承，但是客观世界出现多重继承的情况比较多，为了避免传递中多重继承给程序带来的复杂性等问题，同时保证多重继承带给程序员的诸多好处，C#中提出了接口的概念，通过接口可以实现多重继承的功能
+             * 接口可以继承其他接口，类可以通过其继承的基类（或接口）多次继承同一个接口
+             * 1.接口类似于抽象基类：继承接口的任何类型都必须实现接口的所有成员
+             * 2.接口中不能包括构造函数，因此不能直接实例化接口
+             * 3.接口可以包含属性、方法、索引器和事件
+             * 4.接口中只能定义成员，不能实现成员
+             * 5.接口中定义的成员不允许加访问修饰符，因为接口成员永远是公共的
+             * 6.接口中的成员不能声明为虚拟或静态
+             */
+            //使用派生类对象创建接口数组
+            var persons = new IPerson[] { new Student(), new Teacher() };
+            persons[0].Name = "Peter"; // 为学生姓名赋值
+            persons[0].Age = 20; // 为学生年龄赋值
+            persons[1].Name = "Mike";
+            persons[1].Age = 22;
+            persons[0].Speeks();
+            persons[0].Work();
+            persons[1].Speeks();
+            persons[1].Work();
+            
+
         }
 
         private static void TestSwitch(string strNum)

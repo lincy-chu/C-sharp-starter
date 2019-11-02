@@ -11,7 +11,7 @@ namespace CSharpStarter
         public string FullName { get; set; } // 定义商品名称
     }
 
-    public class JhInfo : Goods
+    public partial class JhInfo : Goods
     {
         public string JhId { get; set; } // 定义进货编号
 

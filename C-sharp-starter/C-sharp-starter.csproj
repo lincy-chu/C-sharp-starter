@@ -33,17 +33,25 @@
     <Compile Include="Book.cs" />
     <Compile Include="CBank.cs" />
     <Compile Include="Computer.cs" />
+    <Compile Include="Computers.cs" />
     <Compile Include="CStockInfo.cs" />
     <Compile Include="CStockInfos.cs" />
     <Compile Include="Deposit.cs" />
+    <Compile Include="Factory.cs" />
     <Compile Include="Goods.cs" />
+    <Compile Include="Info.cs" />
+    <Compile Include="Information.cs" />
     <Compile Include="MainClass.cs" />
+    <Compile Include="Market.cs" />
     <Compile Include="MyComputer.cs" />
     <Compile Include="Operation.cs" />
+    <Compile Include="People.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Util.cs" />
+    <Compile Include="Vehicle.cs" />
     <Compile Include="Water.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
